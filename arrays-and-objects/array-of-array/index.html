@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array-of-Array</title>
+</head>
+<body>
+
+	<script>
+	
+		<!-- let a=[[10,20,30,40],["Ganesh","Gopi","Karthi"],["vel","Mani","Rupu"]]; -->
+			
+			<!-- console.log(a); -->
+			<!-- console.log(a[2]); -->
+			<!-- console.log(a[1][0]); -->
+			<!-- console.log(a[1][0][2],[]); -->
+			<!-- console.log(a[1][0][2],[]); -->
+			
+			
+			//Find array length get prompt 
+			
+			<!-- let a=prompt("Enter A Number"); -->
+			<!-- var b=[]; -->
+			
+			<!-- for(i=0; i<a; i++){ -->
+			<!-- var c=prompt("enter a number"); -->
+			<!-- //b[i]=c; -->
+			<!-- //or -->
+			<!-- //b.push(c) -->
+			<!-- } -->
+			<!-- console.log(b); -->
+		
+			<!-- // array of array value get prompt -->
+			
+			<!-- let a=prompt("Enter a Number"); -->
+			<!-- let b=[]; -->
+			<!-- let c=[]; -->
+			
+			<!-- for(i=0; i<a; i++){ -->
+				<!-- b[i]=i; -->
+			<!-- } -->
+			<!-- console.log(b) -->
+			
+			<!-- // array of array length value get prompt -->
+			
+			<!-- let a=prompt("Enter main length"); -->
+			<!-- var b=[]; -->
+			<!-- var f; -->
+			
+			<!-- for(i=0; i<a; i++){ -->
+				<!-- f=[]; -->
+			<!-- var c=prompt("enter inner length"); -->
+				<!-- for(j=0; j<c; j++){ -->
+				<!-- f[j]=prompt("enter a value"); -->
+				<!-- } -->
+				<!-- b[i]=f; -->
+			<!-- } -->
+			<!-- console.log(b); -->
+			
+			//Find a length 0 get out no create array get one value 
+			
+			<!-- let a=prompt("Enter main length"); -->
+			<!-- var b=[]; -->
+			<!-- var f; -->
+			
+			<!-- for(i=0; i<a; i++){	 -->
+			<!-- var c=prompt("enter inner length"); -->
+				<!-- if(c==0){ -->
+					<!-- f=parseInt(prompt("enter")) -->
+				<!-- } -->
+				<!-- else{ -->
+					<!-- f=[]; -->
+					<!-- for(j=0; j<c; j++){ -->
+					<!-- var d=prompt("enter a value"); -->
+					<!-- f[j]=d -->
+					<!-- } -->
+				<!-- } -->
+				<!-- b[i]=f; -->
+			<!-- } -->
+			<!-- console.log(b); -->
+			
+			//Function create a array of array
+			
+			
+			let a=prompt("Enter main length");
+			var b=[];
+			var f;
+			
+			function hello(){
+				
+				for(i=0; i<a; i++){
+					f=[];
+				var c=prompt("enter inner length");
+					for(j=0; j<c; j++){
+					f[j]=prompt("enter a value");
+					}
+					b[i]=f;
+				}
+				console.log(b);
+			
+			}
+			
+			let array=hello();
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	</script>
+</body>
+</html>
