@@ -83,39 +83,97 @@
 			
 			//Function create a array of array
 			
-			
-			let a=prompt("Enter main length");
-			var b=[];
-			var f;
-			
-			function hello(){
+			<!-- function hello(ggg){ -->
 				
-				for(i=0; i<a; i++){
-					f=[];
-				var c=prompt("enter inner length");
-					for(j=0; j<c; j++){
-					f[j]=prompt("enter a value");
-					}
-					b[i]=f;
-				}
-				console.log(b);
+					<!-- for(j=0; j<ggg; j++){ -->
+					<!-- f[j]=prompt("enter a value"); -->
+					<!-- } -->
+					<!-- return f; -->
+				<!-- } -->
 			
+			
+			
+			
+			
+			<!-- let a=prompt("Enter main length"); -->
+			<!-- var b=[]; -->
+			<!-- var f; -->
+			
+			<!-- for(i=0; i<a; i++){ -->
+					<!-- f=[]; -->
+					<!-- var c=prompt("enter inner length"); -->
+				<!-- let k=hello(c); -->
+				<!-- b[i]=k; -->
+			<!-- }	 -->
+			
+			<!-- console.log(b) -->
+			
+			//console no outer page
+			
+			<!-- let a=prompt("Enter a Number"); -->
+				<!-- for(i=1; i<=a; i++){ -->
+					<!-- var b=i; -->
+					<!-- output(b) -->
+				<!-- } -->
+			
+	
+			<!-- function output(v){ -->
+			
+				<!-- console.log(v) -->
+			
+			<!-- } -->
+			
+			//array of object great new object to value get user
+			
+			<!-- let a=prompt("Enter a Number"); -->
+			<!-- var b=[]; -->
+			<!-- var c;	 -->
+			
+			<!-- for(i=0; i<a; i++){ -->
+				<!-- c={ -->
+					<!-- Name:"", -->
+					<!-- Age:"", -->
+					<!-- Qualify:"", -->
+				<!-- }; -->
+				<!-- var x=prompt("Enter a Name") -->
+				<!-- c.Name=x; -->
+				<!-- var y=prompt("Enter a ID") -->
+				<!-- c.Age=y; -->
+				<!-- var z=prompt("Enter a qualification") -->
+				<!-- c.Qualify=z; -->
+				<!-- b[i]=c; -->
+	
+			<!-- } -->
+			
+			<!-- console.log(b); -->
+			
+			
+			//Function using object create and value passing
+			
+			let a=prompt("Enter a Number");
+			var c;	
+			var g=hello(a);
+			
+			function hello(aa){
+			var b=[];
+			for(i=0; i<aa; i++){
+				c={
+					Name:"",
+					Age:"",
+					Qualify:"",
+				};
+				var x=prompt("Enter a Name")
+				c.Name=x;
+				var y=prompt("Enter a ID")
+				c.Age=y;
+				var z=prompt("Enter a qualification")
+				c.Qualify=z;
+				b[i]=c;
+			}
+				return b;
 			}
 			
-			let array=hello();
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+			console.log(g);
 			
 			
 			
@@ -124,4 +182,4 @@
 			
 	</script>
 </body>
-</html>
+</html>   
