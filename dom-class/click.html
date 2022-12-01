@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Dom-Using-Click-Method</title>
+</head>
+<body>
+
+    <input type="password">
+    <button id="but">Buttton</button>
+
+    <script>
+        let but =document.getElementById("but")
+
+        but.addEventListener("click",()=>{
+            let name=document.getElementsByTagName("input");
+			name[0].type=prompt("Enter a Value");
+        });
+       
+
+    </script>
+    
+</body>
+</html>
