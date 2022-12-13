@@ -9,15 +9,21 @@
 <body>
 
     <script>
+        // const flowers=["rose","lilly","lotus","sunflower","jasmine"];
+        //    // document.write(flowers)
+        // flowers.forEach(function(values,index,array) {
+        
+        //     document.write(values +"<br>")
+        //     document.write(index +"<br>")
+        //     document.write(array +"<br>")
+        // });
+
         const flowers=["rose","lilly","lotus","sunflower","jasmine"];
-           // document.write(flowers)
-        flowers.forEach(function(values,index,array) {
-            
-            document.write("<br>")
-            document.write(values)
-            document.write(index)
-            document.write(array)
+        flowers.map(function(values,index) {
+            console.log(values);
+            console.log(index);
         });
+       
     </script>
     
 </body>
